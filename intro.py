@@ -40,8 +40,8 @@ while emJogo: # loop do jogo
         carregaLoad = pygame.transform.scale(carregaLoad, (int(barraLoad), 100))
         carregaLoadR = carregaLoad.get_rect(midleft=(270, 360))
 
-        WIN.blit(molduraLoad, molduraLoadR)
-        WIN.blit(carregaLoad, carregaLoadR)
+        WIN.blit(molduraLoad, molduraLoadR) #faz aparecer a moldura daa barra
+        WIN.blit(carregaLoad, carregaLoadR) #faz aparecer o carregamento da barra
     else:
         main()
 
